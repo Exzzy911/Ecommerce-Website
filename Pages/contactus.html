@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../CSS/contactus.css">
+	<link rel="icon" type="image/x-icon" href="../Images/title1.png">
+    <title>Find the Best Books</title>
+    <title>Find the Best Books</title>
+</head>
+<style>
+	
+
+
+</style>
+<body>
+	<header id="hi"></header>
+	<header class="brdr">
+	<nav class="navbar">
+		<img id="company"src="../Images/booklogo.png" height="130" width="130">
+		
+		
+		<div class="navlist">
+			<div class="logo">
+				<p id="letter" style="color: black" >The<br>Book Central</p>
+				
+			</div>
+		</div>
+		<div class="navright">
+		<ul class="navright1">
+			<li><a href="../Ashish.html">Home</a></li>
+			<li><a href="product.html">Product</a>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="research.html">Research</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+			<!-- navbar has been listed -->
+		</ul>
+		</div>
+	</nav>
+	</header>
+	<main class="main">
+	<div class="contact4">
+		<div id="forborder">
+			<img src="../Images/location.jpg" height="30px" width="30px">
+			<h2 id="address">Address</h2>
+			<p id="address3">Kathmandu,NP07 </p>
+			<p class="lalitpur">Lalitpur </p>
+			<img  id="phonelogoh"src="../Images/phone.png" height="30px" width="30px">
+			<h2 class="phone">Tel No</h2>
+			<p id="number">(402) 5865290536</p>
+			<img src="../Images/email.png" height="30px" width="30px" id="maillogo">
+			<h2 id="email">Email</h2>
+			<p id="bookcentral1">bookcentral@gmail.com</p>
+
+		</div>
+		<div class="forborder4">
+			<h2 id="message4">Send us a message </h2>
+			<p>If you have any work from us or any types of queries related to our book website, you can send us message <br>from here.It's our pleasure to help you.</p>
+			<form id="myform">
+			<input type="text" name="name" placeholder="Enter your name" required="" id="input">
+			<input type="text" name="name" placeholder="Enter your email" required="" id="input" >
+			<input type="text" name="name" placeholder="Enter your message" required="" id="input"><br>
+			<button id="button9">Send now</button>
+			</form>
+		</div>
+		<
+		
+	</div>
+	</main>
+	<center><details>
+		<summary>Privacy</summary>
+			<p>At Book Central,we care deeply about our privacy.we believe in transperence, and we are committed to being upfront about our privacy practices including how we keep safe information.</p>
+	</details>
+	</center>
+	<center>
+		<details >
+			<summary>Terms and Conditions</summary>
+			<p>Our Book central may include links or references to other web sites or services solely as a convenience to Users (“Reference Sites”).  Unless otherwise expressly stated by Scribd, Scribd does not endorse any such Reference Sites or the information, materials, products, or services contained on or accessible through Reference Sites.</p>
+			// text related to privacy is added
+		</details>
+	</center>
+	<center>
+		<details>
+			<summary>About us</summary>
+			<p>	Book Central is providing the best knowledges in web development. we here provide knowledge on how to built websites from scratch and help learners to develop their skill on web development.<br><center>We are a experienced lecturer and also a web developers,developing websites for longer time and has collected many of the experiences.</p></p>
+		</details>
+	</center>
+	<center><p style="color: black; margin-top: 30px;">Copyright &copy; 2022|The Book Central</p></center>
+	<script type="text/javascript">
+		let vbn=document.getElementById('button9');
+		vbn.addEventListener("click",function(e){
+			e.preventDefault()
+			vbn.innerText="Sending.."
+			setTimeout(function(){
+
+				vbn.innerText=" Message Sent"
+				const form=document.getElementById("myform");
+				form.reset()
+				
+
+
+
+				
+				
+
+			},3000);
+
+			
+
+
+			
+		})
+
+	</script>
+
+	
+</body>
+</html>
